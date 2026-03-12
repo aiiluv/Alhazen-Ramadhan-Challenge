@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jadwal Imsakiyah</title>
+<link rel="stylesheet" href="style-waktusholat.css">
+</head>
+<body>
+    <!-- NAVIGASI -->
+    <main id="Navbar_dan_logo">
+        <div id="grid-item">
+            <img id="logo" src="assets/logo kareem.svg" alt="">
+        </div>
+        <div class="nav">
+            <nav class="inline" id="navbar-nih">
+                <ul class="nav">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="doa.html">Doa</a></li>
+                <li><a href="dzikir.html">Dzikir</a></li>
+                <li><a href="waktu-shalat.html">Waktu sholat</a></li>
+                <li><a href="zakat.html">Hitung zakat</a></li>
+                <li><a href="tracker.html">Tracker</a></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+    <!-- MAIN CONTENT -->
+     <main id="main">
+        <img class="title" src="assets/Jadwal sholat.svg" >
+        <section id="hari-ini">
+            <h3>Waktu Salat di</h3>
+            <h1 id="lokasi">Depok, Indonesia</h1>
+            <!-- PILIH KOTA -->
+            <div class="pilih">
+            <label>Pilih Kota:</label>
+                <select id="kota">
+                    <option value="1301">Jakarta</option>
+                    <option value="1201">Bogor</option>
+                    <option value="1206">Depok</option>
+                    <option value="1503">Tangerang</option>
+                    <option value="1504">Tangerang Selatan</option>
+                    <option value="1204">Bekasi</option>
+                    <option value="1219">Bandung</option>
+                    <option value="1636">Surabaya</option>
+                </select>
+            </div>
+
+            <!-- JADWAL HARI INI -->
+            <div class="jadwal-container">
+                <div class="card sekarang">
+                    <p>Sekarang</p>
+                    <h3>Subuh</h3>
+                    <h1 id="subuh"></h1>
+                </div>
+
+                <div class="card">
+                    <p>Zuhur</p>
+                    <h2 id="dzuhur"></h2>
+                </div>
+
+                <div class="card">
+                    <p>Ashar</p>
+                    <h2 id="ashar"></h2>
+                </div>
+
+                <div class="card">
+                    <p>Maghrib</p>
+                    <h2 id="maghrib"></h2>
+                </div>
+
+                <div class="card">
+                    <p>Isya</p>
+                    <h2 id="isya"></h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- LOADING -->
+        <p id="loading"></p>
+        <p id="error"></p>
+
+        <!-- YANG LAIN -->
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tanggal</th>
+                        <th>Imsak</th>
+                        <th>Subuh</th>
+                        <th>Dzuhur</th>
+                        <th>Ashar</th>
+                        <th>Maghrib</th>
+                        <th>Isya</th>
+                    </tr>
+                </thead>
+                <tbody id="jadwal-body">
+                </tbody>
+            </table>
+        </section>
+    </main>
+<script src="script-waktusholat.js"></script>
+
+<!-- FOOTER -->
+    <footer>
+        <p>© 2026 ALHAZEN RAMADHAN CHALLENGE</p>
+    </footer>
+</body>
+</html>

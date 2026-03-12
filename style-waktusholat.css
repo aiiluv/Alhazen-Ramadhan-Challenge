@@ -1,0 +1,185 @@
+@font-face {
+    font-family: "p";
+    src: url("assets/Hey Comic.ttf") format("truetype");
+}
+
+body {
+    margin: 20px;
+    background-image: url("assets/bg.svg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+    font-family: "p";
+}
+
+/* NAVBAR */
+
+#grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width: 30%;
+    justify-items: center; }
+
+#Navbar_dan_logo{
+    background-color: #F7C93E;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;}
+
+.inline ul > li{
+    display: inline;
+    align-items: center;}
+
+.inline ul > li > a{color: #484848; margin: 10px;}
+
+ul > li > a,
+.contact-color {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.nav{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;}
+
+/* UMUM? GABUNGIN AJA AH */
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+#hr{
+    margin-top: -30px;
+}
+
+
+/* BATAS */
+.batas {
+    height: 2vh;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    justify-content: center;
+    margin: 10vh;
+}
+
+header{
+background:#f7c93e;
+text-align:center;
+}
+
+/* JADWAL HARI INI */
+.hari-ini{
+max-width:1100px;
+margin:auto;
+padding:20px;
+}
+
+.jadwal-container{
+display:flex;
+gap:20px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:20px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+text-align:center;
+flex:1;
+min-width:150px;
+}
+
+.sekarang{
+border:3px solid #ffdf29;
+}
+
+.card h1{
+font-size:40px;
+}
+
+.card h2{
+font-size:28px;
+}
+
+.search-box{
+margin-top:20px;
+display:flex;
+gap:10px;
+}
+
+.search-box input{
+padding:10px;
+border-radius:20px;
+border:1px solid #ccc;
+}
+
+.search-box button{
+background:#1aa260;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:20px;
+cursor:pointer;
+}
+
+/* MAIN */
+#main{
+    padding: 40px;
+}
+
+.pilih{
+margin-bottom:20px;
+}
+
+select{
+padding:8px;
+font-size:16px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+}
+
+th,td{
+padding:10px;
+text-align:center;
+border:1px solid #ddd;
+}
+
+th{
+background:#f7c93e;
+}
+
+.today{
+background:#ffeaa7;
+font-weight:bold;
+}
+
+#loading{
+color:blue;
+}
+
+#error{
+color:red;
+}
+
+@media(max-width:700px){
+
+table{
+font-size:12px;
+}
+
+}

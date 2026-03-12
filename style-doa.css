@@ -4,36 +4,41 @@
 }
 
 body {
-    margin: 20px;
     background-image: url("assets/bg.svg");
-    background-size: cover; 
-    background-repeat: no-repeat; 
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 100vh;
     font-family: "p";
 }
 
 /* NAVBAR */
 
-#grid-item{
+#grid-item {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#logo{
+#logo {
     width: 30%;
-    justify-items: center; }
+    justify-items: center;
+}
 
-#Navbar_dan_logo{
+#Navbar_dan_logo {
     background-color: #F7C93E;
     display: grid;
-    grid-template-columns: 20% 60% 20%;}
+    grid-template-columns: 20% 60% 20%;
+}
 
-.inline ul > li{
+.inline ul > li {
     display: inline;
-    align-items: center;}
+    align-items: center;
+}
 
-.inline ul > li > a{color: #484848; margin: 10px;}
+.inline ul > li > a {
+    color: #484848;
+    margin: 10px;
+}
 
 ul > li > a,
 .contact-color {
@@ -42,18 +47,19 @@ ul > li > a,
     font-size: 20px;
 }
 
-.nav{
+.nav {
     text-align: center;
     font-weight: bolder;
-    font-size: larger;}
+    font-size: larger;
+}
 
-/* UMUM? GABUNGIN AJA AH */
-p{
+/* UMUM */
+p {
     font-size: 20px;
     text-align: center;
 }
 
-#hr{
+#hr {
     margin-top: -30px;
 }
 
@@ -63,8 +69,9 @@ h2,
     text-align: center;
 }
 
-/* INI BUAT JUDUL */
-.smw-judul{
+/* JUDUL */
+
+.smw-judul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,15 +79,14 @@ h2,
     margin-bottom: -20px;
 }
 
-.smw-judul img{
-    width: 140vh;    
-    max-width: 100%; 
+.smw-judul img {
+    width: 140vh;
+    max-width: 100%;
     height: auto;
     display: block;
 }
 
 /* TAMBAHAN INFO */
-
 .tambahan-info{
     display: flex;
     justify-content: center;
@@ -94,6 +100,7 @@ h2,
     height: auto;
     display: block;
 }
+
 
 /* SIDEBAR ANIMASI */
 html {
